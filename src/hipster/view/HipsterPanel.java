@@ -1,5 +1,8 @@
 package hipster.view;
 
-public class HipsterPanel {
-
+import javax.swing.*;
+public class HipsterPanel  extends JPanel
+{
+	private HipsterAppController baseController;
+	private
 }

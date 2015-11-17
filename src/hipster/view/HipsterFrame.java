@@ -1,5 +1,6 @@
 package hipster.view;
 
-public class HipsterFrame {
+public class HipsterFrame 
+{
 
 }
