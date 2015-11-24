@@ -9,7 +9,7 @@ import javax.swing.*;
 
 public class HipsterPanel  extends JPanel
 {
-	private HipsterAppController baseController;
+	private HipsterController baseController;
 	private SpringLayout baseLayout;
 	private JComboBox<String> phraseComboBox;
 	private JLabel bookPageCountLabel;
@@ -21,7 +21,7 @@ public class HipsterPanel  extends JPanel
 	private int maxClicks;
 	private int startClick;
 	
-	public HipsterPanel (HipsterAppController baseController)
+	public HipsterPanel (HipsterController baseController)
 	{
 		
 	}

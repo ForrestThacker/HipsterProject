@@ -14,13 +14,15 @@ public class HipsterFrame extends JFrame
 	public HipsterFrame(HipsterController baseController)
 	{
 		this.baseController = baseController;
-		basePanel = new HipsterPanel();
+		basePanel = new HipsterPanel(baseController);
+		
+		
 		setupFrame();
 	}
 	
 	public String getResponse(String prompt)
 	{
-		String response = JOptionPane,showInputDialog(this, prompt);
+		String response = JOptionPane.showInputDialog(this, prompt);
 		return response;
 	}
 	
